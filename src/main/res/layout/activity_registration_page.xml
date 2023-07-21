@@ -1,0 +1,104 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/color_primary"
+    tools:context=".activity.RegistrationPage">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <EditText
+            android:id="@+id/et_name_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="50dp"
+            android:background="@color/white"
+            android:hint="Enter Name"
+            android:paddingHorizontal="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/et_email_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_name_reg"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="Enter Email Address"
+            android:inputType="textEmailAddress"
+            android:paddingHorizontal="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/et_mobile_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_email_reg"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="Enter Mobile No."
+            android:inputType="phone"
+            android:paddingHorizontal="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/et_adress_reg"
+            android:layout_width="match_parent"
+            android:layout_height="120dp"
+            android:layout_below="@+id/et_mobile_reg"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="Enter Address"
+            android:paddingHorizontal="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/et_password_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_adress_reg"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="Enter Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_700" />
+
+        <EditText
+            android:id="@+id/et_confpassword_reg"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/et_password_reg"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:hint="Confirm Password"
+            android:inputType="textPassword"
+            android:paddingHorizontal="5dp"
+            android:textColor="@color/black"
+            android:textColorHint="@color/teal_700" />
+
+        <Button
+            android:id="@+id/bt_register_reg"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_below="@+id/et_confpassword_reg"
+            android:layout_marginHorizontal="20dp"
+            android:layout_marginTop="50dp"
+            android:text="REGISTER"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</ScrollView>

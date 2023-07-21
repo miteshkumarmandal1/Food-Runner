@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Food Runner</string>
+    <string name="food_runner">Food Runner</string>
+    <string name="log_out">Log out</string>
+    <string name="faqs">FAQs</string>
+    <string name="favourite_restaurants">Favourite Restaurants</string>
+    <string name="my_profile">My Profile</string>
+    <string name="home">Home</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="home_fragment">Home Fragment</string>
+    <string name="preference_file_name">Login Status</string>
+
+
+    <string name="faq_string_new"><![CDATA[01. I don\'t remember my password?\n Answer: You have already created an account but you can\'t remember your password? Click on \'Login/Sign Up\' at the top of the page. Then click on \'Forgot Password?\'. Fill out your phone number and a password recovery will be sent to you by phone.\n\n 02. How can I create an account at www.blissmeal.com?\n Answer: Click on \'Login & Sign up\' at the top of the page. Then fill out your information in the \'Create an account\' section and click the \'Sign Up\' button. You can also create an account directly after placing an order. Your delivery address and the order details will then be saved in your account.\n\n 03. What are your delivery hours?\n Answer: Our delivery hour is from 10:00 AM to 08:00 PM.\n\n 04. How much time it takes to deliver the order?\n Answer: Generally it takes between 45 minutes to 1 hour time to deliver the order. Due to long distance or heavy traffic, delivery might take few extra minutes.\n\n 05. How do I know status of my order?\n Answer: After you place your order, it is sent immediately to the bliss kitchen, which starts preparing it without any delay. The kitchen does everything to process your order as quickly as possible. However, sometimes Blissmeal receives large amount of orders, or drivers get stuck in heavy traffic this might cause little delays. If the amount of time you\'ve waited has exceeded the estimated delivery time, you may please contact us. You will a receive an SMS as soon as your order is dispatched.\n]]></string>
+    <string name="sort">Sort</string>
+</resources>
